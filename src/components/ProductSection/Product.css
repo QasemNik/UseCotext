@@ -1,0 +1,14 @@
+/* .card-body{
+        display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+} */
+.btn-info{
+        padding: 5px;
+    margin: 0 auto;
+}
