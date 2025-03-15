@@ -1,32 +1,55 @@
-.navbar{
-    background-color: var(--dark);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
-}
-.navbar-brand{
-    color: var(--main-red);
-    transition: .4s;
-}
-.nav-item .nav-link{
-
-color: var(--main-white);
-}
-.bag{
-    position: relative;
-    display: flex;
-
-}
-.bag span{
-    position: absolute;
-    top: 0;
+.navbar {
+    background-color: #343a404d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
     right: 0;
-    transform: translate(140%);
-    width: 20px;
-    height: 20px;
-    background-color: var(--main-white);
-    color: var(--main-red);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa !important;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+.bag-box {
+    position: relative;
+}
+
+.bag {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bag:hover {
+    color: #f8f9fa;
+}
+
+.bag-product-counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50%;
 }
